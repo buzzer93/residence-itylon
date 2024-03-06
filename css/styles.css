@@ -1,0 +1,612 @@
+ #palette-de-couleur {
+     color: #EDE6D8;
+
+     color: #A6B5AE;
+
+     color: #767676;
+
+     color: #FFFFFF;
+
+     color: #6B87CB;
+
+     font-family: 'Mooli', sans-serif;
+ }
+
+
+
+
+ img {
+     width: 100%;
+     height: auto;
+ }
+
+ /* Styles pour les écrans de petite taille */
+ @media screen and (max-width: 600px) {
+
+     div.container-fluid>.portrait {
+         max-height: 10vh;
+     }
+
+     #myModal>div>div>div>.demo.portrait {
+         max-height: 5vh;
+     }
+
+     body,
+     footer,
+     .btn {
+         font-size: smaller;
+     }
+
+     h1 {
+         font-size: 25px;
+     }
+     .row.index{
+        margin-top: 5em;
+     }
+ }
+
+ /* Styles pour les écrans de taille moyenne */
+ @media screen and (min-width: 601px) and (max-width: 1200px) {
+     div.container-fluid>.portrait {
+         max-height: 15vh;
+     }
+
+     #myModal>div>div>div>.demo.portrait {
+         max-height: 10vh;
+     }
+
+     body,
+     footer,
+     .btn {
+         font-size: medium;
+     }
+
+     h1 {
+         font-size: 40px;
+     }
+     .row.index{
+        margin-top: 13em;
+     }
+ }
+
+ /* Styles pour les grands écrans */
+ @media screen and (min-width: 1201px) and (max-width: 1450px) {
+     div.container-fluid>.portrait {
+         max-height: 30vh;
+     }
+
+     #myModal>div>div>div>.demo.portrait {
+         max-height: 20vh;
+     }
+
+     body,
+     footer,
+     .btn {
+         font-size: large;
+     }
+
+     h1 {
+         font-size: 50px;
+     }
+     .row.index{
+        margin-top: 15em;
+     }
+ }
+ @media screen and (min-width: 1451px)and (max-width: 1610px){
+    .row.index{
+        margin-top: 20em;
+     }
+ }
+ @media screen and (min-width: 1611px){
+    .row.index{
+        margin-top: 10em;
+     }
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+     font-family: 'Mooli', sans-serif;
+     color: #333;
+ }
+
+ body {
+     width: 100%;
+     background-color: #EDE6D8;
+     text-align: center;
+     font-family: 'Mooli', sans-serif;
+     color: #333;
+ }
+
+ /*******************HEADER*************************/
+ nav {
+     background-color: #A6B5AE;
+     width: 100%;
+     height: 10%;
+     z-index: 1;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+ }
+
+ #navbarNavAltMarkup {
+     width: 100%;
+     justify-content: center;
+
+
+ }
+
+ .navbar-toggler:focus {
+     box-shadow: none;
+ }
+
+ .navbar-brand {
+     width: 25vw;
+     max-width: 140px;
+ }
+
+ .collapse .navbar-collapse {
+     align-items: center;
+     justify-content: center;
+ }
+
+ #navbarNavAltMarkup>div>a {
+     font-size: large;
+ }
+
+ .nav-link {
+     color: #2D2F31;
+ }
+
+ .nav-link:hover {
+     color: #6B87CB;
+ }
+
+ .nav-link.active {
+     font-weight: bold;
+ }
+
+ /**************************INDEX****************************/
+
+ .video {
+     position: absolute;
+     width: 100%;
+     z-index: 1;
+ }
+
+ #background-video {
+     /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+     max-height: 800px;
+     width: 100%;
+     object-fit: cover;
+     /* Center the video */
+
+ }
+
+ .overlay {
+     z-index: 2;
+     position: absolute;
+     justify-content: center;
+     width: 100%;
+
+ }
+
+ #main-img {
+
+     position: relative;
+     max-height: 800px;
+     width: 60%;
+
+ }
+
+ .btn {
+     background-color: #A6B5AE;
+     border-radius: 50px;
+     border: solid 2px #FFFFFF;
+ }
+
+ .btn:hover {
+     background-color: #EDE6D8;
+
+ }
+
+ .description-element {
+     margin: 100px;
+     padding: 10px;
+     background-color: #EDE6D8;
+     display: inline-flex;
+ }
+
+ .img-container {
+     justify-content: center center;
+ }
+
+
+ /**********************DESCRIPTION**************************/
+ .description {
+     margin: 0.5em 0.5em;
+     padding: 0.3em 0.3em;
+     background-color: #ffffff;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .description h4 {
+     padding: 0.5em 0 0 0;
+ }
+
+ .description-text {
+     padding: 0 0.5em 0.5em 0.5em;
+     text-align: left;
+ }
+
+ .index-item {
+     margin: 2%;
+     box-shadow: 10px 10px 7px #333333a9;
+     text-align: left;
+ }
+
+ /************************CARD******************************/
+
+ div.card {
+     margin: 0.5vh 0.5vw;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ div.card-body {
+     flex: 1 1 auto;
+     padding: 0.5em 0 0.5em 0;
+    justify-content: center;
+    align-items: center;
+
+ }
+.card-img-box{
+    max-height: 25vh;
+    overflow: hidden;
+    text-align: center;
+}
+.card-img-box img{
+ object-fit: cover;
+}
+ div>div.card-body>a.btn {
+     border: solid 2px #EDE6D8;
+ }
+
+ div.card-body>p {
+     text-align: left;
+     font-size: medium;
+     margin-left: 1rem;
+ }
+
+ div>div.card-body>p>a {
+     color: #2D2F31;
+ }
+
+ /***********************CAROUSEL*******************************/
+ #carouselExampleFade {
+     width: 70%;
+     margin: 30px auto;
+ }
+
+ .carousel-item img {
+     width: 100%;
+     height: auto;
+ }
+
+ #carouselExampleFade>div>.portrait {
+     width: auto;
+     height: 50vh;
+ }
+
+ #carouselExampleFade button {
+     background-color: #2d2f3160;
+ }
+
+ /************************GALLERY*****************************/
+
+ .gallery ul {
+     display: flex;
+     flex-wrap: wrap;
+     list-style-type: none;
+     margin: 1rem 1rem 1rem 0;
+ }
+
+
+
+
+ .gallery img {
+     max-height: 100%;
+     min-width: 100%;
+     object-fit: cover;
+     vertical-align: bottom;
+     border-radius: 10px;
+ }
+
+ /* @media (max-aspect-ratio: 1/1) {
+  .gallery   li {
+      height: 7vh;
+      width: auto;
+    }
+  }*/
+ .gallery li {
+     height: 30vh;
+     width: 40vw;
+     flex-grow: 1;
+     margin: 5px 5px 0px 0px;
+ }
+
+ @media (max-height: 480px) {
+     .gallery li {
+         height: 40vh;
+         width: 50vw;
+     }
+ }
+
+ @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+     .gallery ul {
+         flex-direction: row;
+     }
+
+     .gallery li {
+         height: auto;
+         max-width: 45%;
+     }
+
+     .gallery img {
+         width: 100%;
+         min-width: 0;
+     }
+ }
+
+ /********************LIGHTBOX***************************/
+ .row {
+     padding: 10px 8px;
+     justify-content: center;
+ }
+
+
+ /* Create four equal columns that floats next to eachother */
+ .gallery-img-box {
+     margin: 0.3rem;
+ }
+
+ .gallery.row img {
+     border-radius: 5px;
+     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);*/
+ }
+
+
+ /* The Modal (background) */
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     padding-top: 12vh;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: #000000b7;
+ }
+
+ /* Modal Content */
+ .modal-content {
+     position: relative;
+     background-color: #A6B5AE;
+     margin: auto;
+     padding: 0;
+     max-width: 120vh;
+ }
+
+ #myModal>div>div>div.slide-image-box>.portrait {
+     width: auto;
+     max-height: 50vh;
+ }
+
+ /* The Close Button */
+ .close {
+     color: white;
+     position: absolute;
+     top: 10px;
+     right: 25px;
+     font-size: 35px;
+     font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus {
+     color: #999;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ /* Hide the slides by default */
+ .mySlides {
+     display: none;
+ }
+
+
+ /* Next & previous buttons */
+ .prev,
+ .next {
+     cursor: pointer;
+     position: absolute;
+     top: 55%;
+     width: auto;
+     padding: 16px;
+     margin-top: -50px;
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+     -webkit-user-select: none;
+ }
+
+ /* Position the "next button" to the right */
+ .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+ }
+
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover,
+ .next:hover {
+     background-color: rgba(0, 0, 0, 0.8);
+ }
+
+ /* Number text (1/3 etc) */
+ .numbertext {
+     color: #f2f2f2;
+     font-size: 17px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+ }
+
+ .demo {
+     margin-top: 0.5rem;
+ }
+
+ .demo.active {
+     box-shadow: 0px 0px 0px 3px #6B87CB;
+ }
+
+ img.hover-shadow {
+     transition: 0.3s;
+ }
+
+ .hover-shadow:hover,
+ .demo:hover {
+     /* offset-x | offset-y | blur-radius | spread-radius | color */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+     /*zoom: 0.1;*/
+ }
+
+ /**********************TABS-GALLERY****************************/
+ .description-img {
+     border-radius: 15px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .section-description {
+     width: 80%;
+     background-color: #fff;
+     border-radius: 15px;
+     padding: 0.5rem;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ /* Style the tab */
+ .tab {
+     margin-top: 1rem;
+     align-items: center;
+ }
+
+ .tabcontent {
+     animation: fadeEffect 1s;
+     /* Fading effect takes 1 second */
+ }
+
+ /* Go from zero to full opacity */
+ @keyframes fadeEffect {
+     from {
+         opacity: 0;
+     }
+
+     to {
+         opacity: 1;
+     }
+ }
+
+
+ /* Change background color of buttons on hover */
+ .tab button:hover {
+     background-color: #ddd;
+ }
+
+ /* Create an active/current tablink class */
+ .tab button.active {
+     background-color: #ccc;
+ }
+
+ /* Style the tab content */
+ .tabcontent {
+     /*display: none;*/
+     padding: 6px 12px;
+ }
+
+ /**************************CONTACT******************************/
+ #plan-section>img,
+ #tarif-section>img {
+     border-radius: 15px;
+     margin-top: 1em;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ #plan-section>img:hover,
+ #tarif-section>img:hover {
+     zoom: normal;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+ }
+
+ #contact-section {
+     background-color: #fff;
+     border-radius: 15px;
+     margin-top: 1em;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ #contact-section label {
+     text-align: left;
+     max-width: 80%;
+     display: block;
+
+ }
+
+ #message {
+     width: 100%;
+     height: 60%;
+ }
+
+ #contact-form>div>div.row>input {
+     width: min-content;
+     border: solid 2px #EDE6D8;
+ }
+
+ .fa-brands {
+     margin-top: 1rem;
+ }
+
+ /**************************Footer******************************/
+
+ #footer {
+     background-color: #EDE6D8;
+     margin-top: 1vh;
+     padding-top: 10px;
+     z-index: 2;
+ }
+
+ footer>.row {
+     justify-content: center;
+     align-items: center;
+ }
+
+ footer>.row>.col {
+     justify-content: center;
+     align-items: center;
+ }
+
+ #footer_img {
+     -webkit-filter: invert(80%);
+     filter: invert(80%);
+     width: 50% !important;
+ }
